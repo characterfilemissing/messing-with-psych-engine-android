@@ -47,7 +47,9 @@ class CastomAndroidControls extends MusicBeatState
 		curSelected = config.getcontrolmode();
 
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
-		bg.color = 0xFFea71fd;
+	        var checker:FlxBackdrop = new FlxBackdrop(Paths.image('Main_Checker'), 0.2, 0.2, true, true);
+	        var gradientBar:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width, 300, 0xFFAA00AA);		
+                bg.color = 0xFFea71fd;
 		bg.updateHitbox();
 		bg.screenCenter();
 		add(bg);
