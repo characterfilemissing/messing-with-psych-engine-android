@@ -49,7 +49,7 @@ class CastomAndroidControls extends MusicBeatState
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
 	        var checker:FlxBackdrop = new FlxBackdrop(Paths.image('Main_Checker'), 0.2, 0.2, true, true);
 	        var gradientBar:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width, 300, 0xFFAA00AA);		
-                bg.color = 0xFFea71fd;
+                bg.color = 0xFFea71fd; //Casually ripped from Mic'd Up code
 		bg.updateHitbox();
 		bg.screenCenter();
 		add(bg);
