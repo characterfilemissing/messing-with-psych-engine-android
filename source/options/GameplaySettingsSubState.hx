@@ -50,21 +50,21 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 		addOption(option);
 
 		var option:Option = new Option('Middlescroll',
-			'If checked, your notes get centered.',
+			'Your notes get pushed into the middle instead of to the right.',
 			'middleScroll',
 			'bool',
 			false);
 		addOption(option);
 
 		var option:Option = new Option('Ghost Tapping',
-			"If checked, you won't get misses from pressing keys\nwhile there are no notes able to be hit.",
+			"You won't get misses by pressing keys\nwhile there are no notes to hit.",
 			'ghostTapping',
 			'bool',
 			true);
 		addOption(option);
 
 		var option:Option = new Option('Disable Reset Button',
-			"If checked, pressing Reset won't do anything.",
+			"Pressing R won't kill Boyfriend.",
 			'noReset',
 			'bool',
 			false);
